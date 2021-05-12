@@ -1,0 +1,49 @@
+.line {
+    color: white;
+    margin-left: 10px;
+    
+}
+
+.line__banners {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 10px;
+}
+
+.line__banners::-webkit-scrollbar {
+    display: none;
+}
+
+.line__banner {
+    max-height: 100px;
+    object-fit: contain;
+    margin-right: 10px;
+    width: 100%;
+    transition: transfrom 450ms;
+    position: relative;
+}
+
+.line__banner:hover {
+    transform: scale(1.08);
+    opacity: 1;
+}
+
+.line__bannerBig {
+    max-height: 250px;
+}
+
+.line__bannerBig:hover {
+    transform: scale(1.09);
+    opacity: 1;
+}
+
+.trailer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .youtube__trailer {
+    width: 90vw;
+    margin-right: 20px;
+  }
