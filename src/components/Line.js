@@ -28,10 +28,10 @@ function Line({ title, fetchUrl, bigLine = false }) {
     }, [fetchUrl]);
 
     const opts = {
-        height: '350',
-        width: '740',
+        height: '390',
+        width: '100%',
         playerVars: {
-        autoplay: 2,
+        autoplay: 1,
         },
       };
     
